@@ -83,17 +83,18 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *👋🏻 ʜᴇʟʟᴏ {} *
-ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴢᴏɪᴅ [✨](https://telegra.ph/file/e49a96b35cc9d4dc8a213.jpg)
+ᴍʏ ɴᴀᴍᴇ ɪꜱ ʜᴀɴᴄᴏᴄᴋ [✨](https://telegra.ph/file/00a31101aefd222410f3d.jpg)
 ᴍᴇ ɪꜱ ᴀ ʙᴏᴛ ᴍᴀɴᴀɢᴇʀ + ᴍᴜꜱɪᴄ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡᴇʟʟ.
 ────────────────────────
 × `{}` *ᴜꜱᴇʀꜱ, ᴀᴄʀᴏꜱꜱ* `{}` *ᴄʜᴀᴛꜱ.*
 ────────────────────────
-ᴛᴇᴋᴀɴ /help ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴅᴀꜰᴛᴀʀ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀꜱᴇᴅɪᴀ.
+ᴛᴇᴋᴀɴ /help ᴏʀ /mhelp ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴅᴀꜰᴛᴀʀ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀꜱᴇᴅɪᴀ.
 """
+
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴢᴏɪᴅ", callback_data="emiko_"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ʜᴀɴᴄᴏᴄᴋ", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"),
@@ -103,7 +104,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅ", url=f"t.me/{bu}?startgroup=new"),
+            text="ᴛᴀᴍʙᴀʜᴋᴀɴ ʜᴀɴᴄᴏᴄᴋ", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -432,8 +433,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/ZoidsXRobotLog"),
-                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/ImZo_0"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/executivebanget"),
+                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/nakama_asl"),
                  ],
                  [
                     InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="emiko_"),
