@@ -89,7 +89,7 @@ async def _(event):
         pantek = await ubot2.download_media(kontols)
         await tbot.send_file(
             event.chat.id, 
-            caption="Anime Short Video By Hinata Robot", 
+            caption="Anime Short Video By Hancock Robot", 
             file=pantek
             )
         await memeks.delete()
@@ -174,7 +174,7 @@ async def _(event):
         pantek = await ubot2.download_media(kontols)
         await tbot.send_file(
             event.chat.id, 
-            caption="Funny Video by Hinata Robot", 
+            caption="Funny Video by Hancock Robot", 
             file=pantek
             )
         await memeks.delete()
@@ -195,7 +195,7 @@ async def _(event):
         pantek = await ubot2.download_media(kontols)
         await tbot.send_file(
             event.chat.id, 
-            caption="Tiktok FYP video by Hinata Robot", 
+            caption="Tiktok FYP video by Hancock Robot", 
             file=pantek
             )
         await memeks.delete()
@@ -237,7 +237,7 @@ async def _(event):
         pantek = await ubot2.download_media(kontols)
         await tbot.send_file(
             event.chat.id, 
-            caption="Mentahan PP couple by Hinata Robot", 
+            caption="Mentahan PP couple by Hancock Robot", 
             file=pantek
             )
         await memeks.delete()
@@ -258,7 +258,7 @@ async def _(event):
         pantek = await ubot2.download_media(kontols)
         await tbot.send_file(
             event.chat.id, 
-            caption="Negative Content By Hinata Robot", 
+            caption="Negative Content By Hancock Robot", 
             file=pantek
             )
         await memeks.delete()
@@ -279,7 +279,7 @@ async def _(event):
         pantek = await ubot2.download_media(kontols)
         await tbot.send_file(
             event.chat.id, 
-            caption="Adult Photos by Hinata Robot", 
+            caption="Adult Photos by Hancock Robot", 
             file=pantek
             )
         await memeks.delete()
