@@ -452,9 +452,9 @@ def emiko_about_callback(update, context):
             "\n├ *Rp. 50.000 [ Deploy + Vps ]*"
             "\n└ *Sistem Terima Jadi*"
             "\n\n*➻ Catatan*"
-            "\n\n*➻ Apabila bot yang anda inginkan tidak ada dalam daftar list, silahkan tanya ke* [Azure](tg://openmessage?user_id=5657257558)"
+            "\n\n*➻ Apabila bot yang anda inginkan tidak ada dalam daftar list, silahkan tanya ke* [AZURE](tg://openmessage?user_id=5657257558)"
             "\n\n*➻ Jika ingin gunakan bot free silahkan cek @nakama_asl.*"
-            "\n\n*➻ Silahkan Hubungi* [Azure](tg://openmessage?user_id=5657257558) *Untuk melihat/menanyakan bot*"
+            "\n\n*➻ Silahkan Hubungi* [AZURE](tg://openmessage?user_id=5657257558) *Untuk melihat/menanyakan bot*"
             "\n\n*𝗦𝗘𝗞𝗜𝗔𝗡 𝗧𝗘𝗥𝗜𝗠𝗔 𝗞𝗔𝗦𝗜𝗛 🙏.*",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -483,7 +483,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_support":
         query.message.edit_text(
             text="*Bantuan Perintah Hancok Robot*)"
-            "\npilih tombol dibawah untuk melihat bantuan perintah AmangRobot",
+            "\npilih tombol dibawah untuk melihat bantuan perintah Hancock Robot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
