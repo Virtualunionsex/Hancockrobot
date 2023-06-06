@@ -94,7 +94,7 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Tambahkan Saya Ke Grup ➕️", url="https://t.me/Hancock_Robot_bot?startgroup=true"
+            text="➕️ Tambahkan Saya Ke Grup ➕️", url="https://t.me/Hancock_Robot?startgroup=true"
         ),
     ],
     [
