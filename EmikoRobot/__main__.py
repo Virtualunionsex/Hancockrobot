@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *👋🏻 ʜᴇʟʟᴏ {} *
-ᴍʏ ɴᴀᴍᴇ ɪꜱ ʜᴀɴᴄᴏᴄᴋ [✨](https://telegra.ph/file/00a31101aefd222410f3d.jpg)
+ᴍʏ ɴᴀᴍᴇ ɪꜱ ʟᴜғғʏ ʀᴏʙᴏᴛ [✨](https://te.legra.ph/file/c9419a431dfdfe6efcfad.jpg)
 ᴍᴇ ɪꜱ ᴀ ʙᴏᴛ ᴍᴀɴᴀɢᴇʀ + ᴍᴜꜱɪᴄ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡᴇʟʟ.
 ────────────────────────
 × `{}` *ᴜꜱᴇʀꜱ, ᴀᴄʀᴏꜱꜱ* `{}` *ᴄʜᴀᴛꜱ.*
@@ -94,7 +94,7 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Tambahkan Saya Ke Grup ➕️", url="https://t.me/Hancock_Robot?startgroup=true"
+            text="➕️ Tambahkan Saya Ke Grup ➕️", url="https://t.me/Luffy_XRobot?startgroup=true"
         ),
     ],
     [
